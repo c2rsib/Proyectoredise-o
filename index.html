@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Médico - Productos</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="/html/index.html">
+            <img src="/img/LOGO.jpg" alt="logo" id="logoI">
+        </a>
+        <button class="hamburger" id="hamburger-btn">&#9776;</button>
+        <nav id="navbar">
+            <button id="theme-toggle" class="theme-toggle">Modo Oscuro</button>
+            <a href="/index.html">Inicio</a>
+            <a href="/acercade.html" id="acercade-link">Acerca de</a>
+            <a href="/contactos.html" id="contactos-link">Contactos</a>
+            <a href="/ubicacion.html" id="ubicacion-link">Ubicación</a>
+            <a href="/historial.html" id="historial-link" style="display:none;">Ver Compras</a>
+            <a href="/admin.html" id="productos-link" style="display:none;">Productos</a>
+            <a href="/login.html" id="login-link">Iniciar Sesión</a>
+            <a href="/register.html" id="register-link">Registrar</a>
+            <span id="welcome-message" style="display:none;"></span>
+            <a href="#" id="logout-link" style="display:none;">Cerrar Sesión</a>
+            <button id="cart-btn">Carrito (0)</button>
+        </nav>
+    </header>
+    <main>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="/img/EQUIPO MEDICO 1.jpg" alt="Maquinaria 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/EQUIPO MEDICO 2.jpg" alt="Maquinaria 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/SUPLEMENTO1.jpg" alt="Suplemento 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/SUPLEMENTO2.jpg" alt="Suplemento 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/SERVICIO MEDICO.jpg" alt="Servicio Médico">
+                </div>
+            </div>
+            <button class="carousel-prev" id="prev">&#10094;</button>
+            <button class="carousel-next" id="next">&#10095;</button>
+        </div>
+        <section id="product-list" class="product-grid">
+            <!-- Aquí se mostrarán las tarjetas de productos -->
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Sobre Nosotros</h4>
+            <p>Somos una tienda online dedicada a ofrecer los mejores productos con la mejor calidad y atención al cliente.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Enlaces</h4>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Productos</a></li>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Síguenos</h4>
+            <div class="social-links">
+              <a href="#" class="social-icon"><img src="/img/facebook.jpg" alt="Facebook"></a>
+              <a href="#" class="social-icon"><img src="/img/x.png" alt="Twitter"></a>
+              <a href="#" class="social-icon"><img src="/img/instagram.jpg" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Centro medico Aserrí. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+      
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
